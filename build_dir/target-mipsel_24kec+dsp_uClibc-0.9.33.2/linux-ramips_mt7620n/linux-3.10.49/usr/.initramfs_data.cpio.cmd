@@ -1,0 +1,1 @@
+cmd_usr/initramfs_data.cpio := /bin/bash /home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620n/linux-3.10.49/scripts/gen_initramfs_list.sh -o usr/initramfs_data.cpio   -d

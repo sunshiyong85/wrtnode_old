@@ -1,0 +1,8 @@
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/blkid-tiny.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/block.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/fstools.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/jffs2reset.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/mount_root.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/snapshot_tool.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/ubi.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/fstools-2015-02-25.1/CMakeFiles/ubi-utils.dir

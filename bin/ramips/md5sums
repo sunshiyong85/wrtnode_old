@@ -1,0 +1,6 @@
+a7b4dfb01645357fb18bb3818327d3f0 *OpenWrt-SDK-ramips-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
+3e5605ca78ce881bdfd772041c60958f *openwrt-ramips-mt7620n-root.squashfs
+2195920da07505aa216c987c22c5f987 *openwrt-ramips-mt7620n-uImage.bin
+a6fa959efa11a9c94a245f6c3b1b9e11 *openwrt-ramips-mt7620n-vmlinux.bin
+a2c579fab177074982972f569bc30b50 *openwrt-ramips-mt7620n-vmlinux.elf
+1aea41b5be62f667e30c1486cda5eed7 *openwrt-ramips-mt7620n-wrtnode-squashfs-sysupgrade.bin

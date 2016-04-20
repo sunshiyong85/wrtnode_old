@@ -1,0 +1,6 @@
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/CMakeFiles/cli.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/examples/CMakeFiles/client.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/examples/CMakeFiles/server.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/CMakeFiles/ubus.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/lua/CMakeFiles/ubus_lua.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/CMakeFiles/ubusd.dir

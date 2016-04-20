@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/cli.c
+unistd.h
+-
+libubox/blobmsg_json.h
+-
+libubus.h
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/libubus.h
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/libubus.h
+libubox/avl.h
+-
+libubox/list.h
+-
+libubox/blobmsg.h
+-
+libubox/uloop.h
+-
+stdint.h
+-
+ubusmsg.h
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/ubusmsg.h
+ubus_common.h
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/ubus_common.h
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/ubus_common.h
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubus-2014-09-17/ubusmsg.h
+stdint.h
+-
+libubox/blob.h
+-
+

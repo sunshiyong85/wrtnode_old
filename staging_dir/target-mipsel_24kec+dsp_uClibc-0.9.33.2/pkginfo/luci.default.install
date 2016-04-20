@@ -1,0 +1,8 @@
+luci-base
+luci-lib-nixio
+luci-proto-ppp
+luci-proto-3g
+luci-mod-admin-full
+luci-app-firewall
+luci-theme-bootstrap
+luci

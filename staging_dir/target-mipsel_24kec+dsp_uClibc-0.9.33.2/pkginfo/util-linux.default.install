@@ -1,0 +1,4 @@
+libblkid
+libmount
+libuuid
+mount-utils

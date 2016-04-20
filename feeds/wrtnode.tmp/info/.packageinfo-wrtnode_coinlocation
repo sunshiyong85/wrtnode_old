@@ -1,0 +1,18 @@
+Source-Makefile: feeds/wrtnode/wrtnode/coinlocation/Makefile
+Package: coin_location
+Submenu: demos
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread 
+Menu-Depends: 
+Provides: 
+Section: wrtnode
+Category: WRTnode
+Title: coin_location demo app 
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	WRTnode coin_location demo application 
+
+@@
+
+

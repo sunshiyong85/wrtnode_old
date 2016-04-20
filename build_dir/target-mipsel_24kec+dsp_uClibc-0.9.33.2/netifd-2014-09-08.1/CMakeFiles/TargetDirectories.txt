@@ -1,0 +1,1 @@
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/netifd-2014-09-08.1/CMakeFiles/netifd.dir

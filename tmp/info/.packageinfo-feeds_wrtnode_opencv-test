@@ -1,0 +1,19 @@
+Source-Makefile: package/feeds/wrtnode/opencv-test/Makefile
+Package: opencv-test
+Submenu: demos
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +opencv
+Menu-Depends: 
+Provides: 
+Section: wrtnode
+Category: WRTnode
+Title: opencv demo app 
+Maintainer: 
+Source: 
+Type: ipkg
+Feed: wrtnode
+Description: 	WRTnode test program for opencv lib 
+
+@@
+
+

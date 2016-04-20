@@ -1,0 +1,1 @@
+cmd_arch/mips/ralink/built-in.o :=  mipsel-openwrt-linux-uclibc-ld  -m elf32ltsmip   -r -o arch/mips/ralink/built-in.o arch/mips/ralink/prom.o arch/mips/ralink/of.o arch/mips/ralink/reset.o arch/mips/ralink/clk.o arch/mips/ralink/timer.o arch/mips/ralink/irq.o arch/mips/ralink/mt7620.o arch/mips/ralink/early_printk.o arch/mips/ralink/bootrom.o 

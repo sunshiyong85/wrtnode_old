@@ -1,0 +1,18 @@
+Source-Makefile: package/feeds/wrtnode/uSDaemon/Makefile
+Package: uSDaemon
+Version: 1.0.0-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +block-mount
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Base system
+Title: uSD auto (un)mount
+Maintainer: 
+Source: 
+Type: ipkg
+Feed: wrtnode
+Description: uSD auto (un)mount
+
+@@
+
+

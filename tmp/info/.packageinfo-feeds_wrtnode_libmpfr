@@ -1,0 +1,18 @@
+Source-Makefile: package/feeds/wrtnode/libmpfr/Makefile
+Package: libmpfr
+Version: 3.1.2-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libgmp
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: MPFR library
+Maintainer: Wen Peng Xiao <xiaowp@gmail.com>
+Source: mpfr-3.1.2.tar.bz2
+Type: ipkg
+Feed: wrtnode
+Description:   The MPFR library is a C library for multiple-precision floating-point computations with correct rounding. 
+Wen Peng Xiao <xiaowp@gmail.com>
+@@
+
+

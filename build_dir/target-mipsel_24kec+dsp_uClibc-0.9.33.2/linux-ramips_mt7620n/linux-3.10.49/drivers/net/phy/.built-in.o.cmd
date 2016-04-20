@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.o :=  mipsel-openwrt-linux-uclibc-ld  -m elf32ltsmip   -r -o drivers/net/phy/built-in.o drivers/net/phy/mdio-boardinfo.o drivers/net/phy/libphy.o drivers/net/phy/swconfig.o 

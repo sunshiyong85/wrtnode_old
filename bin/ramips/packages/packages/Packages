@@ -1,0 +1,31 @@
+Package: libjpeg
+Version: 6b-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 59517
+Filename: libjpeg_6b-1_ramips_24kec.ipk
+Size: 60170
+MD5Sum: f52cd272352654ee49642492971f9e3e
+SHA256sum: 78b83ac1f2b48d3a7136464b1b5559e8ca362e983181d26337ba3dcb19af6b86
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: mjpg-streamer
+Version: r182-1
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+License: GPL-2.0
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 37082
+Filename: mjpg-streamer_r182-1_ramips_24kec.ipk
+Size: 37751
+MD5Sum: 41404a218ea27f9788f930b671db9783
+SHA256sum: 41a0f55cd889f97ac6635287a2aad52a9c7e39c701e396bc2553a005aad54619
+Description:  Streaming application for Linux-UVC compatible webcams
+

@@ -1,0 +1,3 @@
+kernel/drivers/net/ethernet/ralink/ralink-eth.ko
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/swconfig.ko

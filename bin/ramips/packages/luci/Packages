@@ -1,0 +1,112 @@
+Package: luci-app-firewall
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 63959
+Filename: luci-app-firewall_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 64630
+MD5Sum: 260e0e252ef6ebce4d511ca294b1637b
+SHA256sum: da464e24ec45103dede8c3b892516ebc7fe430e3981bcc818922d95b6f97fb0a
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 140307
+Filename: luci-base_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 141097
+MD5Sum: aa4bcb9213117f72450e01639f89e5d6
+SHA256sum: 59300e3831879b0411472b2f9da9c8323a6560eebfa2fbd4215e3471a63c3022
+Description:  LuCI core libraries
+
+Package: luci-lib-nixio
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 29272
+Filename: luci-lib-nixio_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 29730
+MD5Sum: 0f24739b87c54278991c99ee836e6fd8
+SHA256sum: 2ba2aff7fe050fa35f15fdaa509acadb7f25aff9afbd572edd4c8c846f094708
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 66780
+Filename: luci-mod-admin-full_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 67462
+MD5Sum: d7d99e5cd78e4147b15ec09160abbc95
+SHA256sum: 92e5ccee991e29322874af7660d7bff919f9f5134b881284082a3cb756a6d300
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, comgt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 1843
+Filename: luci-proto-3g_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 2419
+MD5Sum: 81298b0c66bb2e26ea5b6609eb2dbb73
+SHA256sum: 6ba35d6e813fa5d01824f85dfcb5bc805322c848a8255c785f6a8653f6d02c10
+Description:  Support for 3G
+
+Package: luci-proto-ppp
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 2972
+Filename: luci-proto-ppp_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 3576
+MD5Sum: 802b41db1bed5f04929e7c20e5d827ff
+SHA256sum: 0f7068348f31bf1e78624c7f2aa6a08ae8efca877e8b7e31ac64b0186c7cc99a
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 13098
+Filename: luci-theme-bootstrap_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 13793
+MD5Sum: f708fb13bbbab1117e89569ab11da04c
+SHA256sum: 817caea83501657da778ebd5fa9f02c788d923c94a66cdeb57f5c86314f63d89
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 104
+Filename: luci_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 783
+MD5Sum: 255d5697fcd4dc2e8c22d4257e103387
+SHA256sum: a7244d09cd0c5ce793fc196dcc50032b47c6d0e67f610681e5fb9b042344438d
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+

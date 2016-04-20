@@ -1,0 +1,6 @@
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/kmodloader.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/logd.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/logread.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/lsbloader.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/validate.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ubox-2015-02-25.1/CMakeFiles/validate_data.dir

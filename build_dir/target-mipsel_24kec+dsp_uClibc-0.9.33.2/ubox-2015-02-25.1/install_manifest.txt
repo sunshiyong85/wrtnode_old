@@ -1,0 +1,6 @@
+/usr/sbin/kmodloader
+/usr/sbin/lsbloader
+/usr/lib/libvalidate.so
+/usr/sbin/validate_data
+/usr/sbin/logd
+/usr/sbin/logread

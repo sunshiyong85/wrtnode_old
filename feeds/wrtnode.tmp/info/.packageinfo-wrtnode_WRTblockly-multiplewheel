@@ -1,0 +1,17 @@
+Source-Makefile: feeds/wrtnode/wrtnode/WRTblockly-multiplewheel/Makefile
+Package: WRTblockly-multiplewheel
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread 
+Menu-Depends: 
+Provides: 
+Section: WRTblockly-multiplewheel
+Category: WRTnode
+Title: WRTnode setwifi by web
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	This package is a bridge connected to the communication blockly and WRTnode 
+
+@@
+
+

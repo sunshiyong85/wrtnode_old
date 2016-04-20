@@ -1,0 +1,17 @@
+Source-Makefile: feeds/wrtnode/linino/cpu-mcu-bridge/Makefile
+Package: cpu-mcu-bridge
+Version: 1.1.0-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +python-mini
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: CPU-MCU Bridge
+Maintainer: 
+Source: cpu-mcu-bridge-1.1.0.tar.bz2
+Type: ipkg
+Description:  Bridge lets linux and arduino communicate
+
+@@
+
+

@@ -1,0 +1,183 @@
+choice
+	prompt "Target System"
+	default TARGET_ar71xx
+	reset if !DEVEL
+	
+config TARGET_ramips
+	bool "Ralink RT288x/RT3xxx"
+	select HAS_SUBTARGETS
+	select mipsel
+	help
+	  Build firmware images for Ralink RT288x/RT3xxx based boards.
+
+
+endchoice
+
+choice
+	prompt "Subtarget" if HAS_SUBTARGETS
+
+config TARGET_ramips_mt7620n
+	bool "MT7620n based boards"
+	select LINUX_3_10
+	depends on TARGET_ramips
+	select USES_DEVICETREE
+	select GPIO_SUPPORT
+	select USES_SQUASHFS
+	select USB_SUPPORT
+	select mipsel
+	help
+	  Build firmware images for Ralink RT288x/RT3xxx based boards.
+
+
+endchoice
+
+choice
+	prompt "Target Profile"
+
+config TARGET_ramips_mt7620n_Default
+	bool "Default Profile"
+	depends on TARGET_ramips_mt7620n
+	
+
+	select DEFAULT_base-files
+	select DEFAULT_busybox
+	select DEFAULT_dnsmasq
+	select DEFAULT_dropbear
+	select DEFAULT_firewall
+	select DEFAULT_fstools
+	select DEFAULT_ip6tables
+	select DEFAULT_iptables
+	select DEFAULT_kmod-gpio-button-hotplug
+	select DEFAULT_kmod-ipt-nathelper
+	select DEFAULT_kmod-leds-gpio
+	select DEFAULT_kmod-ledtrig-usbdev
+	select DEFAULT_kmod-usb-core
+	select DEFAULT_kmod-usb-ohci
+	select DEFAULT_kmod-usb2
+	select DEFAULT_libc
+	select DEFAULT_libgcc
+	select DEFAULT_luci
+	select DEFAULT_mtd
+	select DEFAULT_netifd
+	select DEFAULT_odhcp6c
+	select DEFAULT_odhcpd
+	select DEFAULT_opkg
+	select DEFAULT_ppp
+	select DEFAULT_ppp-mod-pppoe
+	select DEFAULT_ralink-wifi
+	select DEFAULT_swconfig
+	select DEFAULT_uci
+	help
+	  Default package set compatible with most boards.
+
+endchoice
+
+config HAS_SUBTARGETS
+	bool
+
+config TARGET_BOARD
+	string
+
+		default "ramips" if TARGET_ramips
+config TARGET_ARCH_PACKAGES
+	string
+	
+		default "ramips_24kec" if TARGET_ramips_mt7620n
+
+config DEFAULT_TARGET_OPTIMIZATION
+	string
+	default "-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kec -mdsp" if TARGET_ramips_mt7620n
+	default "-Os -pipe -funit-at-a-time"
+
+config CPU_TYPE
+	string
+	default "24kec+dsp" if TARGET_ramips_mt7620n
+	default ""
+
+config LINUX_3_10
+	bool
+
+	config DEFAULT_base-files
+		bool
+
+	config DEFAULT_busybox
+		bool
+
+	config DEFAULT_dnsmasq
+		bool
+
+	config DEFAULT_dropbear
+		bool
+
+	config DEFAULT_firewall
+		bool
+
+	config DEFAULT_fstools
+		bool
+
+	config DEFAULT_ip6tables
+		bool
+
+	config DEFAULT_iptables
+		bool
+
+	config DEFAULT_kmod-gpio-button-hotplug
+		bool
+
+	config DEFAULT_kmod-ipt-nathelper
+		bool
+
+	config DEFAULT_kmod-leds-gpio
+		bool
+
+	config DEFAULT_kmod-ledtrig-usbdev
+		bool
+
+	config DEFAULT_kmod-usb-core
+		bool
+
+	config DEFAULT_kmod-usb-ohci
+		bool
+
+	config DEFAULT_kmod-usb2
+		bool
+
+	config DEFAULT_libc
+		bool
+
+	config DEFAULT_libgcc
+		bool
+
+	config DEFAULT_luci
+		bool
+
+	config DEFAULT_mtd
+		bool
+
+	config DEFAULT_netifd
+		bool
+
+	config DEFAULT_odhcp6c
+		bool
+
+	config DEFAULT_odhcpd
+		bool
+
+	config DEFAULT_opkg
+		bool
+
+	config DEFAULT_ppp
+		bool
+
+	config DEFAULT_ppp-mod-pppoe
+		bool
+
+	config DEFAULT_ralink-wifi
+		bool
+
+	config DEFAULT_swconfig
+		bool
+
+	config DEFAULT_uci
+		bool
+

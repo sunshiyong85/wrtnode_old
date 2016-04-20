@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ustream-ssl-cyassl/ustream-ssl-2014-03-25/ustream-example-server.c
+sys/socket.h
+-
+netinet/in.h
+-
+stdio.h
+-
+getopt.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+libubox/ustream.h
+-
+libubox/uloop.h
+-
+libubox/usock.h
+-
+ustream-ssl.h
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ustream-ssl-cyassl/ustream-ssl-2014-03-25/ustream-ssl.h
+
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/ustream-ssl-cyassl/ustream-ssl-2014-03-25/ustream-ssl.h
+libubox/ustream.h
+-
+

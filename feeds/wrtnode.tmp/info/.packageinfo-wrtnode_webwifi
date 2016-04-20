@@ -1,0 +1,17 @@
+Source-Makefile: feeds/wrtnode/wrtnode/webwifi/Makefile
+Package: webwifi
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +luci
+Menu-Depends: 
+Provides: 
+Section: webwifi
+Category: WRTnode
+Title: WRTnode setwifi by web
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	This package provides  UCI for wifi Configuration.
+
+@@
+
+

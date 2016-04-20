@@ -1,0 +1,3 @@
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/polarssl-1.3.9/CMakeFiles/apidoc.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/polarssl-1.3.9/library/CMakeFiles/polarssl.dir
+/home/sun/workspace/sun/wrtnode/wrtnode/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/polarssl-1.3.9/library/CMakeFiles/polarssl_static.dir
